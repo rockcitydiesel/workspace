@@ -46,8 +46,8 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 call plug#begin()
 
 " code complete
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-surround'
 
 " fuzzy file search
